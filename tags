@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Board	src/com/rozzles/board/Board.java	/^    public Board(){$/;"	m	class:Board
+Board	src/com/rozzles/board/Board.java	/^public class Board {$/;"	c
+ColorButton	src/com/rozzles/view/ColorButton.java	/^    public ColorButton(int width, int height, Color color )$/;"	m	class:ColorButton
+ColorButton	src/com/rozzles/view/ColorButton.java	/^    public ColorButton(int width, int height, Color color, int borderWidth, Color borderCol )$/;"	m	class:ColorButton
+ColorButton	src/com/rozzles/view/ColorButton.java	/^public class ColorButton extends JButton implements Runnable$/;"	c
+IndexCaptures	src/com/rozzles/logic/ai/IndexCaptures.java	/^    public IndexCaptures(Board board, boolean blackTurn){$/;"	m	class:IndexCaptures
+IndexCaptures	src/com/rozzles/logic/ai/IndexCaptures.java	/^public class IndexCaptures {$/;"	c
+Move	src/com/rozzles/logic/Move.java	/^    public Move(Board board){$/;"	m	class:Move
+Move	src/com/rozzles/logic/Move.java	/^public class Move {$/;"	c
+PointList	src/com/rozzles/logic/PointList.java	/^    public PointList() {$/;"	m	class:PointList
+PointList	src/com/rozzles/logic/PointList.java	/^public class PointList {$/;"	c
+PointXY	src/com/rozzles/logic/PointXY.java	/^public class PointXY {$/;"	c
+Reversi	src/com/rozzles/Reversi.java	/^public class Reversi {$/;"	c
+ReversiTile	src/com/rozzles/view/ReversiTile.java	/^    public ReversiTile(Board board, int x, int y, boolean blackBoard){$/;"	m	class:ReversiTile
+ReversiTile	src/com/rozzles/view/ReversiTile.java	/^public class ReversiTile extends ColorButton implements MouseListener{$/;"	c
+Search	src/com/rozzles/logic/Search.java	/^    public Search(boolean blackPlayer) {$/;"	m	class:Search
+Search	src/com/rozzles/logic/Search.java	/^public class Search {$/;"	c
+SearchObject	src/com/rozzles/logic/SearchObject.java	/^    public SearchObject(Board board){$/;"	m	class:SearchObject
+SearchObject	src/com/rozzles/logic/SearchObject.java	/^public class SearchObject {$/;"	c
+TilePoint	src/com/rozzles/logic/TilePoint.java	/^    public TilePoint(PointXY xy, int state) {$/;"	m	class:TilePoint
+TilePoint	src/com/rozzles/logic/TilePoint.java	/^public class TilePoint extends PointXY {$/;"	c
+Window	src/com/rozzles/view/Window.java	/^    public Window(Board board, boolean blackWindow){$/;"	m	class:Window
+Window	src/com/rozzles/view/Window.java	/^public class Window {$/;"	c
+addPoint	src/com/rozzles/logic/PointList.java	/^    public void addPoint(TilePoint tp, boolean upperList){$/;"	m	class:PointList
+addWindow	src/com/rozzles/board/Board.java	/^    public void addWindow(Window window,int i){$/;"	m	class:Board
+areThereCaptures	src/com/rozzles/logic/ai/IndexCaptures.java	/^    public boolean areThereCaptures(){$/;"	m	class:IndexCaptures
+backslash	src/com/rozzles/logic/SearchObject.java	/^    private PointList backslash;$/;"	f	class:SearchObject	file:
+bint	src/com/rozzles/board/Board.java	/^    public static int bint(boolean bool){$/;"	m	class:Board
+blackBoard	src/com/rozzles/view/ReversiTile.java	/^    private boolean blackBoard;$/;"	f	class:ReversiTile	file:
+blackPlayer	src/com/rozzles/logic/Search.java	/^    private boolean blackPlayer;$/;"	f	class:Search	file:
+blackTurn	src/com/rozzles/board/Board.java	/^    private boolean blackTurn = false;$/;"	f	class:Board	file:
+blackTurn	src/com/rozzles/logic/ai/IndexCaptures.java	/^    private boolean blackTurn;$/;"	f	class:IndexCaptures	file:
+blackWindow	src/com/rozzles/view/Window.java	/^    private boolean blackWindow;$/;"	f	class:Window	file:
+board	src/com/rozzles/board/Board.java	/^    public int board[] = new int[65];$/;"	f	class:Board
+board	src/com/rozzles/logic/Move.java	/^    private Board board;$/;"	f	class:Move	file:
+board	src/com/rozzles/logic/SearchObject.java	/^    private Board board;$/;"	f	class:SearchObject	file:
+board	src/com/rozzles/logic/ai/IndexCaptures.java	/^    private Board board;$/;"	f	class:IndexCaptures	file:
+board	src/com/rozzles/view/ReversiTile.java	/^    private Board board;$/;"	f	class:ReversiTile	file:
+board	src/com/rozzles/view/Window.java	/^    private Board board;$/;"	f	class:Window	file:
+borderColor	src/com/rozzles/view/ColorButton.java	/^    protected Color borderColor;$/;"	f	class:ColorButton
+borderSize	src/com/rozzles/view/ColorButton.java	/^    protected int borderSize;$/;"	f	class:ColorButton
+buttonText	src/com/rozzles/view/Window.java	/^    private String buttonText(boolean blackWindow){$/;"	m	class:Window	file:
+captured	src/com/rozzles/logic/TilePoint.java	/^    private boolean captured;$/;"	f	class:TilePoint	file:
+com.rozzles	src/com/rozzles/Reversi.java	/^package com.rozzles;$/;"	p
+com.rozzles.board	src/com/rozzles/board/Board.java	/^package com.rozzles.board;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/Move.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/PointList.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/PointXY.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/Search.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/SearchObject.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic	src/com/rozzles/logic/TilePoint.java	/^package com.rozzles.logic;$/;"	p
+com.rozzles.logic.ai	src/com/rozzles/logic/ai/IndexCaptures.java	/^package com.rozzles.logic.ai;$/;"	p
+com.rozzles.view	src/com/rozzles/view/ColorButton.java	/^package com.rozzles.view;$/;"	p
+com.rozzles.view	src/com/rozzles/view/ReversiTile.java	/^package com.rozzles.view;$/;"	p
+com.rozzles.view	src/com/rozzles/view/Window.java	/^package com.rozzles.view;$/;"	p
+countCapturesInLine	src/com/rozzles/logic/Search.java	/^    private int countCapturesInLine(ArrayList<TilePoint> tp) {$/;"	m	class:Search	file:
+countCapturesInList	src/com/rozzles/logic/Search.java	/^    private int countCapturesInList(PointList pl) {$/;"	m	class:Search	file:
+createIndex	src/com/rozzles/logic/ai/IndexCaptures.java	/^    public void createIndex(){$/;"	m	class:IndexCaptures
+displayView	src/com/rozzles/view/Window.java	/^    public void displayView() {$/;"	m	class:Window
+drawColor	src/com/rozzles/view/ColorButton.java	/^    protected Color drawColor;$/;"	f	class:ColorButton
+endGame	src/com/rozzles/board/Board.java	/^    private void endGame(){$/;"	m	class:Board	file:
+fetchState	src/com/rozzles/view/ReversiTile.java	/^    private void fetchState(){$/;"	m	class:ReversiTile	file:
+fillList	src/com/rozzles/logic/SearchObject.java	/^    private PointList fillList(int x, int y, int x_delta, int y_delta) {$/;"	m	class:SearchObject	file:
+fillList	src/com/rozzles/logic/SearchObject.java	/^    private PointList fillList(int x, int y, int x_delta, int y_delta, boolean firstList, PointList list){$/;"	m	class:SearchObject	file:
+forwardslash	src/com/rozzles/logic/SearchObject.java	/^    private PointList forwardslash= new PointList();$/;"	f	class:SearchObject	file:
+frame	src/com/rozzles/view/Window.java	/^    private JFrame frame;$/;"	f	class:Window	file:
+getBackslash	src/com/rozzles/logic/SearchObject.java	/^    public PointList getBackslash() {$/;"	m	class:SearchObject
+getCaptures	src/com/rozzles/logic/Search.java	/^    public int getCaptures(SearchObject so) {$/;"	m	class:Search
+getCapturesFromMove	src/com/rozzles/logic/Move.java	/^    public int getCapturesFromMove(int x, int y, boolean blackTurn, boolean doMakeMove){$/;"	m	class:Move
+getColourlc	src/com/rozzles/view/Window.java	/^    private String getColourlc(boolean blackWindow){$/;"	m	class:Window	file:
+getColouruc	src/com/rozzles/view/Window.java	/^    public static String getColouruc(boolean blackWindow){$/;"	m	class:Window
+getForwardslash	src/com/rozzles/logic/SearchObject.java	/^    public PointList getForwardslash() {$/;"	m	class:SearchObject
+getHorizontal	src/com/rozzles/logic/SearchObject.java	/^    public PointList getHorizontal() {$/;"	m	class:SearchObject
+getLower	src/com/rozzles/logic/PointList.java	/^    public ArrayList<TilePoint> getLower() {$/;"	m	class:PointList
+getLower	src/com/rozzles/logic/PointList.java	/^    public TilePoint getLower(int pos) {$/;"	m	class:PointList
+getMax	src/com/rozzles/logic/ai/IndexCaptures.java	/^    private int getMax(){$/;"	m	class:IndexCaptures	file:
+getNextMove	src/com/rozzles/logic/ai/IndexCaptures.java	/^    public PointXY getNextMove(){$/;"	m	class:IndexCaptures
+getPos	src/com/rozzles/board/Board.java	/^    public int getPos(int x, int y){$/;"	m	class:Board
+getScore	src/com/rozzles/board/Board.java	/^    private int[] getScore(){$/;"	m	class:Board	file:
+getSearchLists	src/com/rozzles/logic/SearchObject.java	/^    public ArrayList<PointList> getSearchLists(){$/;"	m	class:SearchObject
+getState	src/com/rozzles/logic/TilePoint.java	/^    public int getState() {$/;"	m	class:TilePoint
+getUpper	src/com/rozzles/logic/PointList.java	/^    public ArrayList<TilePoint> getUpper() {$/;"	m	class:PointList
+getUpper	src/com/rozzles/logic/PointList.java	/^    public TilePoint getUpper(int pos) {$/;"	m	class:PointList
+getVertical	src/com/rozzles/logic/SearchObject.java	/^    public PointList getVertical() {$/;"	m	class:SearchObject
+getWinner	src/com/rozzles/board/Board.java	/^    private boolean getWinner(int[] scoreArray){$/;"	m	class:Board	file:
+getX	src/com/rozzles/logic/PointXY.java	/^    public int getX() {$/;"	m	class:PointXY
+getXy	src/com/rozzles/logic/TilePoint.java	/^    public PointXY getXy() {$/;"	m	class:TilePoint
+getY	src/com/rozzles/logic/PointXY.java	/^    public int getY() {$/;"	m	class:PointXY
+handleMoseClick	src/com/rozzles/view/ReversiTile.java	/^    public void handleMoseClick(){$/;"	m	class:ReversiTile
+horizontal	src/com/rozzles/logic/SearchObject.java	/^    private PointList horizontal = new PointList();$/;"	f	class:SearchObject	file:
+iToXY	src/com/rozzles/board/Board.java	/^    public int[] iToXY(int i){$/;"	m	class:Board
+image	src/com/rozzles/view/ReversiTile.java	/^    BufferedImage image[] = new BufferedImage[3];$/;"	f	class:ReversiTile
+inBoard	src/com/rozzles/board/Board.java	/^    public boolean inBoard(int x, int y){$/;"	m	class:Board
+index	src/com/rozzles/logic/ai/IndexCaptures.java	/^    private int[] index = new int[65];$/;"	f	class:IndexCaptures	file:
+isBlackTurn	src/com/rozzles/board/Board.java	/^    public boolean isBlackTurn(){$/;"	m	class:Board
+isCaptured	src/com/rozzles/logic/TilePoint.java	/^    public boolean isCaptured() {$/;"	m	class:TilePoint
+isMoveValid	src/com/rozzles/logic/Move.java	/^    public boolean isMoveValid(int x, int y, boolean blackTurn, boolean doMakeMove){$/;"	m	class:Move
+label	src/com/rozzles/view/Window.java	/^    private JLabel label;$/;"	f	class:Window	file:
+labelText	src/com/rozzles/view/Window.java	/^    private String labelText(boolean blackWindow) {$/;"	m	class:Window	file:
+lower	src/com/rozzles/logic/PointList.java	/^    private  ArrayList<TilePoint> lower;$/;"	f	class:PointList	file:
+main	src/com/rozzles/Reversi.java	/^    public static void main (String args[]){$/;"	m	class:Reversi
+main	src/com/rozzles/view/ColorButton.java	/^    public static void main(String[] args)$/;"	m	class:ColorButton
+makeAIMove	src/com/rozzles/board/Board.java	/^    public void makeAIMove(boolean blackPlayer){$/;"	m	class:Board
+makeCapturesFromGroup	src/com/rozzles/logic/Move.java	/^    private void makeCapturesFromGroup(ArrayList<PointList> al, boolean blackTurn){$/;"	m	class:Move	file:
+makeCapturesFromHalfList	src/com/rozzles/logic/Move.java	/^    private void makeCapturesFromHalfList(ArrayList<TilePoint> halfList, boolean blackTurn){$/;"	m	class:Move	file:
+makeCapturesFromList	src/com/rozzles/logic/Move.java	/^    private void makeCapturesFromList(PointList pl, boolean blackTurn){$/;"	m	class:Move	file:
+makeMove	src/com/rozzles/logic/Move.java	/^    public void makeMove(int x, int y, boolean blackTurn){$/;"	m	class:Move
+mouseClicked	src/com/rozzles/view/ReversiTile.java	/^    public void mouseClicked(MouseEvent e) {$/;"	m	class:ReversiTile
+mouseEntered	src/com/rozzles/view/ReversiTile.java	/^    public void mouseEntered(MouseEvent e) {$/;"	m	class:ReversiTile
+mouseExited	src/com/rozzles/view/ReversiTile.java	/^    public void mouseExited(MouseEvent e) {$/;"	m	class:ReversiTile
+mousePressed	src/com/rozzles/view/ReversiTile.java	/^    public void mousePressed(MouseEvent e) {$/;"	m	class:ReversiTile
+mouseReleased	src/com/rozzles/view/ReversiTile.java	/^    public void mouseReleased(MouseEvent e) {$/;"	m	class:ReversiTile
+newTurn	src/com/rozzles/board/Board.java	/^    private void newTurn(){$/;"	m	class:Board	file:
+nextTurn	src/com/rozzles/board/Board.java	/^    public void nextTurn(){$/;"	m	class:Board
+paintComponent	src/com/rozzles/view/ColorButton.java	/^    protected void paintComponent(Graphics g)$/;"	m	class:ColorButton
+paintComponent	src/com/rozzles/view/ReversiTile.java	/^    protected void paintComponent(Graphics g){$/;"	m	class:ReversiTile
+populateSearch	src/com/rozzles/logic/SearchObject.java	/^    public void populateSearch(int x, int y){$/;"	m	class:SearchObject
+redrawSelf	src/com/rozzles/view/ColorButton.java	/^    public void redrawSelf()$/;"	m	class:ColorButton
+refreshWindows	src/com/rozzles/board/Board.java	/^    public void refreshWindows(){$/;"	m	class:Board
+repaint	src/com/rozzles/view/Window.java	/^    public void repaint(){$/;"	m	class:Window
+run	src/com/rozzles/Reversi.java	/^    private  void run(){$/;"	m	class:Reversi	file:
+run	src/com/rozzles/view/ColorButton.java	/^    public void run()$/;"	m	class:ColorButton
+serialVersionUID	src/com/rozzles/view/ColorButton.java	/^    private static final long serialVersionUID = 9041257494324082543L;$/;"	f	class:ColorButton	file:
+setBackslash	src/com/rozzles/logic/SearchObject.java	/^    public void setBackslash(PointList backslash) {$/;"	m	class:SearchObject
+setBorderColor	src/com/rozzles/view/ColorButton.java	/^    public void setBorderColor(Color newColor) { borderColor = newColor; redrawSelf(); }$/;"	m	class:ColorButton
+setBorderWidth	src/com/rozzles/view/ColorButton.java	/^    public void setBorderWidth(int newWidth) { borderSize = newWidth; redrawSelf(); }$/;"	m	class:ColorButton
+setCaptureFlagLine	src/com/rozzles/logic/Search.java	/^    private ArrayList<TilePoint> setCaptureFlagLine(ArrayList<TilePoint> tp) {$/;"	m	class:Search	file:
+setCaptureFlagList	src/com/rozzles/logic/Search.java	/^    private PointList setCaptureFlagList(PointList list) {$/;"	m	class:Search	file:
+setCaptured	src/com/rozzles/logic/TilePoint.java	/^    public void setCaptured(boolean captured) {$/;"	m	class:TilePoint
+setColor	src/com/rozzles/view/ColorButton.java	/^    public void setColor(Color newColor) { drawColor = newColor; redrawSelf(); }$/;"	m	class:ColorButton
+setForwardslash	src/com/rozzles/logic/SearchObject.java	/^    public void setForwardslash(PointList forwardslash) {$/;"	m	class:SearchObject
+setHorizontal	src/com/rozzles/logic/SearchObject.java	/^    public void setHorizontal(PointList horizontal) {$/;"	m	class:SearchObject
+setLocation	src/com/rozzles/logic/PointXY.java	/^    public void setLocation(int x, int y){$/;"	m	class:PointXY
+setLower	src/com/rozzles/logic/PointList.java	/^    public void setLower(ArrayList<TilePoint> lower) {$/;"	m	class:PointList
+setPos	src/com/rozzles/board/Board.java	/^    public void setPos(int x, int y, int state){$/;"	m	class:Board
+setUpper	src/com/rozzles/logic/PointList.java	/^    public void setUpper(ArrayList<TilePoint> upper) {$/;"	m	class:PointList
+setVertical	src/com/rozzles/logic/SearchObject.java	/^    public void setVertical(PointList vertical) {$/;"	m	class:SearchObject
+skippedLastTurn	src/com/rozzles/board/Board.java	/^    private boolean skippedLastTurn;$/;"	f	class:Board	file:
+state	src/com/rozzles/logic/TilePoint.java	/^    private int state;$/;"	f	class:TilePoint	file:
+state	src/com/rozzles/view/ReversiTile.java	/^    private int state;$/;"	f	class:ReversiTile	file:
+tileClicked	src/com/rozzles/board/Board.java	/^    public void tileClicked(int x, int y, boolean blackBoard){$/;"	m	class:Board
+tiles	src/com/rozzles/view/Window.java	/^    ReversiTile tiles[];$/;"	f	class:Window
+turnText	src/com/rozzles/view/Window.java	/^    private String turnText(){$/;"	m	class:Window	file:
+upper	src/com/rozzles/logic/PointList.java	/^    private ArrayList<TilePoint> upper;$/;"	f	class:PointList	file:
+vertical	src/com/rozzles/logic/SearchObject.java	/^    private PointList vertical= new PointList();$/;"	f	class:SearchObject	file:
+windowTitle	src/com/rozzles/view/Window.java	/^    private String windowTitle(boolean blackWindow){$/;"	m	class:Window	file:
+windows	src/com/rozzles/board/Board.java	/^    private Window windows[] = new Window[2];$/;"	f	class:Board	file:
+x	src/com/rozzles/logic/PointXY.java	/^    private int x;$/;"	f	class:PointXY	file:
+x	src/com/rozzles/view/ReversiTile.java	/^    private int x, y;$/;"	f	class:ReversiTile	file:
+xy	src/com/rozzles/logic/TilePoint.java	/^    private PointXY xy = new PointXY();$/;"	f	class:TilePoint	file:
+xyToi	src/com/rozzles/board/Board.java	/^    public int xyToi(int x, int y){$/;"	m	class:Board
+y	src/com/rozzles/logic/PointXY.java	/^    private int y;$/;"	f	class:PointXY	file:
+y	src/com/rozzles/view/ReversiTile.java	/^    private int x, y;$/;"	f	class:ReversiTile	file:

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.rozzles.Reversi</OriginalElement>
+  <nodes>
+    <node x="512.0626488095238" y="644.0">com.rozzles.logic.Search</node>
+    <node x="190.91666666666669" y="145.0">com.rozzles.logic.TilePoint</node>
+    <node x="83.06264880952386" y="545.0">com.rozzles.logic.SearchObject</node>
+    <node x="39.25000000000006" y="1477.0">com.rozzles.view.ReversiTile</node>
+    <node x="0.0" y="1200.0">com.rozzles.view.ColorButton</node>
+    <node x="217.66666666666669" y="312.0">com.rozzles.logic.PointList</node>
+    <node x="408.0626488095239" y="844.0">com.rozzles.logic.Move</node>
+    <node x="228.81979166666662" y="0.0">com.rozzles.logic.PointXY</node>
+    <node x="276.0" y="1134.0">com.rozzles.board.Board</node>
+    <node x="350.2459821428572" y="1688.0">com.rozzles.view.Window</node>
+    <node x="425.7459821428572" y="1833.0">com.rozzles.Reversi</node>
+    <node x="608.5626488095238" y="989.0">com.rozzles.logic.ai.IndexCaptures</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.rozzles.logic.SearchObject" target="com.rozzles.logic.PointXY">
+      <point x="-153.375" y="-124.5" />
+      <point x="134.18764880952386" y="520.0" />
+      <point x="166.16666666666669" y="520.0" />
+      <point x="166.16666666666669" y="115.0" />
+      <point x="243.71979166666662" y="115.0" />
+      <point x="-59.599999999999994" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.logic.TilePoint" target="com.rozzles.logic.PointXY">
+      <point x="-1.4210854715202004E-14" y="-58.5" />
+      <point x="311.9166666666667" y="125.0" />
+      <point x="303.3197916666666" y="125.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.view.ReversiTile" target="com.rozzles.board.Board">
+      <point x="88.75" y="-80.5" />
+      <point x="305.50000000000006" y="1457.0" />
+      <point x="318.3" y="1457.0" />
+      <point x="-169.2" y="146.5" />
+    </edge>
+    <edge source="com.rozzles.logic.PointList" target="com.rozzles.logic.TilePoint">
+      <point x="-2.8421709430404007E-14" y="-91.5" />
+      <point x="416.66666666666663" y="287.0" />
+      <point x="372.4166666666667" y="287.0" />
+      <point x="60.5" y="58.5" />
+    </edge>
+    <edge source="com.rozzles.Reversi" target="com.rozzles.view.Window">
+      <point x="-41.75" y="-25.5" />
+      <point x="467.4959821428572" y="1808.0" />
+      <point x="452.7459821428572" y="1808.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.logic.SearchObject" target="com.rozzles.board.Board">
+      <point x="-102.25" y="124.5" />
+      <point x="185.31264880952386" y="1114.0" />
+      <point x="318.29999999999995" y="1114.0" />
+      <point x="-169.20000000000002" y="-146.5" />
+    </edge>
+    <edge source="com.rozzles.logic.Move" target="com.rozzles.logic.SearchObject">
+      <point x="-74.50000000000003" y="-47.5" />
+      <point x="482.56264880952386" y="819.0" />
+      <point x="389.81264880952386" y="819.0" />
+      <point x="102.25" y="124.5" />
+    </edge>
+    <edge source="com.rozzles.logic.Move" target="com.rozzles.board.Board">
+      <point x="0.0" y="47.5" />
+      <point x="557.0626488095239" y="964.0" />
+      <point x="512.8959821428572" y="964.0" />
+      <point x="512.8959821428572" y="1114.0" />
+      <point x="487.5" y="1114.0" />
+      <point x="2.8421709430404007E-14" y="-146.5" />
+    </edge>
+    <edge source="com.rozzles.view.Window" target="com.rozzles.view.ReversiTile">
+      <point x="-82.0" y="-47.5" />
+      <point x="370.7459821428572" y="1668.0" />
+      <point x="128.00000000000006" y="1668.0" />
+      <point x="-88.75" y="80.5" />
+    </edge>
+    <edge source="com.rozzles.view.ReversiTile" target="com.rozzles.view.ColorButton">
+      <point x="-88.75" y="-80.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="com.rozzles.board.Board" target="com.rozzles.logic.ai.IndexCaptures">
+      <point x="84.60000000000002" y="-146.5" />
+      <point x="572.1" y="1104.0" />
+      <point x="659.5626488095238" y="1104.0" />
+      <point x="-51.0" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.logic.Move" target="com.rozzles.logic.Search">
+      <point x="74.49999999999997" y="-47.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.rozzles.logic.ai.IndexCaptures" target="com.rozzles.logic.PointXY">
+      <point x="51.0" y="-47.5" />
+      <point x="761.5626488095238" y="115.0" />
+      <point x="362.9197916666666" y="115.0" />
+      <point x="59.599999999999994" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.logic.ai.IndexCaptures" target="com.rozzles.logic.Move">
+      <point x="-50.99999999999997" y="-47.5" />
+      <point x="659.5626488095239" y="964.0" />
+      <point x="656.3959821428573" y="964.0" />
+      <point x="99.33333333333334" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.Reversi" target="com.rozzles.board.Board">
+      <point x="41.75" y="-25.5" />
+      <point x="550.9959821428572" y="1808.0" />
+      <point x="565.7459821428572" y="1808.0" />
+      <point x="565.7459821428572" y="1457.0" />
+      <point x="656.7" y="1457.0" />
+      <point x="169.20000000000007" y="146.5" />
+    </edge>
+    <edge source="com.rozzles.logic.SearchObject" target="com.rozzles.logic.TilePoint">
+      <point x="-51.12500000000003" y="-124.5" />
+      <point x="236.43764880952384" y="520.0" />
+      <point x="207.16666666666669" y="520.0" />
+      <point x="207.16666666666669" y="287.0" />
+      <point x="251.41666666666669" y="287.0" />
+      <point x="-60.5" y="58.5" />
+    </edge>
+    <edge source="com.rozzles.board.Board" target="com.rozzles.logic.Move">
+      <point x="-84.6" y="-146.5" />
+      <point x="402.9" y="1114.0" />
+      <point x="476.50000000000006" y="1114.0" />
+      <point x="476.50000000000006" y="964.0" />
+      <point x="457.72931547619055" y="964.0" />
+      <point x="-99.33333333333333" y="47.5" />
+    </edge>
+    <edge source="com.rozzles.logic.ai.IndexCaptures" target="com.rozzles.board.Board">
+      <point x="51.0" y="47.5" />
+      <point x="761.5626488095238" y="1114.0" />
+      <point x="656.7" y="1114.0" />
+      <point x="169.20000000000002" y="-146.5" />
+    </edge>
+    <edge source="com.rozzles.logic.SearchObject" target="com.rozzles.logic.PointList">
+      <point x="153.37499999999997" y="-124.5" />
+      <point x="440.9376488095238" y="520.0" />
+      <point x="516.1666666666667" y="520.0" />
+      <point x="99.5" y="91.5" />
+    </edge>
+    <edge source="com.rozzles.view.Window" target="com.rozzles.board.Board">
+      <point x="82.0" y="-47.5" />
+      <point x="534.7459821428572" y="1668.0" />
+      <point x="514.4447916666667" y="1668.0" />
+      <point x="514.4447916666667" y="1447.0" />
+      <point x="572.1" y="1447.0" />
+      <point x="84.60000000000002" y="146.5" />
+    </edge>
+    <edge source="com.rozzles.board.Board" target="com.rozzles.view.Window">
+      <point x="-84.6" y="146.5" />
+      <point x="402.9" y="1457.0" />
+      <point x="473.30000000000007" y="1457.0" />
+      <point x="473.30000000000007" y="1668.0" />
+      <point x="452.7459821428572" y="1668.0" />
+      <point x="0.0" y="-47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7255450553537758" x="886.3200316950679" y="309.2946383431554" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
